@@ -12,3 +12,7 @@ mobaxterm.txt
   Enhanced terminal for Windows with X11 server,
   tabbed SSH client, network tools and much more
   https://mobaxterm.mobatek.net/
+
+plugins.txt
+  Plugins for ModaXterm
+  https://mobaxterm.mobatek.net/plugins.html
