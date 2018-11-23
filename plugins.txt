@@ -1,0 +1,18 @@
+plugins.txt
+Create Fri Novembe 23, 2018
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+The plugin are installed in the same directory as the MobaXterm 
+executable at:
+    C:\Program Files (x86)\Mobatek\Mobaterm
+
+
+Plugins
+=======
+CygUtils.plugin: Collection of core UNIX tools for Windows
+  Installed from MobXterm application on Thu November 22, 2018
+
+Development.mxt3 (157MB)
+  Gcc, G++ and development tools: the GNU C/C++ compiler and other development tools
+  https://mobaxterm.mobatek.net/plugins/Development.mxt3
