@@ -5,6 +5,9 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+docs/
+  Documentation
+
 links.txt
   MobaXterm related links
 
