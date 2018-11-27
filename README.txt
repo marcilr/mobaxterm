@@ -19,3 +19,6 @@ mobaxterm.txt
 plugins.txt
   Plugins for ModaXterm
   https://mobaxterm.mobatek.net/plugins.html
+
+syntax/
+  Syntax for MobaXterm
