@@ -16,3 +16,13 @@ CygUtils.plugin: Collection of core UNIX tools for Windows
 Development.mxt3 (157MB)
   Gcc, G++ and development tools: the GNU C/C++ compiler and other development tools
   https://mobaxterm.mobatek.net/plugins/Development.mxt3
+
+
+
+MobaXterm plugins
+=================
+In order to install these plugins, just download them and put them in the
+same directory than MobaXterm executable.  If you need to enhance MobaXterm
+with extra tools and commands, you can also use the MobApt package manager:
+type "MobApt" (or "apt-get") inside MobaXterm terminal.
+--https://mobaxterm.mobatek.net/plugins.html
