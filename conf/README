@@ -1,9 +1,14 @@
-README.txt
+README
 Created Tue, Nov 27, 2018  7:47:55 AM
 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Filelist
 ========
-conf.txt
-  MobaXterm configuration items
+MobaXterm.ini
+  Backup of MobaXterm v11.0 Build 3816 configuration file that
+  contain the session list of servers to connect to.  Only host
+  names no credentials.
+
+  Backed up from:
+    /home/mobaxterm/MyDocuments/MobaXterm/MobaXterm.ini
