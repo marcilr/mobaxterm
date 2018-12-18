@@ -1,13 +1,62 @@
 mobaxterm.txt
-Create Fri Novembe 23, 2018
-by Raymond E. Marcil <marcilr@gmail.com>
+Created Fri Dec 14 07:26:27 AST 2018
+by Raymond E. Marcil <ray.marcil@alaska.gov>
 
 
 MobaXterm
 
 
-Enhanced terminal for Windows with X11 server, tabbed SSH client,
-network tools and much more
+Configuration
+=============
+In order for aliases, .bashrc, and other dot files in ~/ your 
+home directory must be configured in MobaXterm.
+
+1. In MobaXterm v11.0 Build 3186
+click Settings
+click Configuration
+
+2. At MobaXterm configuration:
+
+Persistent home directory:
+  _ProfileDir_\Documents\MobaXterm\home
+
+  NOTE: Updating this path broke MobaXterm /bin/ references
+
+Persistent root (/) directory:
+  _ProfileDir_\Documents\MobaXterm\slash
+
+Default text editor program:
+  <MobaTextEditor>
+  ===> _ProfileDir_\Documents\MobaXterm\slash\bin\nano.exe
+       (/home/mobaxterm/Documents/MobaXterm/slash/bin/nano.exe
+        /drives/c/Users/remarcil/Documents/MobaXterm/slash/bin/nano.exe)
+
+3. To alleviate error(s):
+> git diff manifest
+/bin/busybox.exe less -R: /bin/busybox.exe: No such file or directory
+>
+
+Added aliases to .bash_profile:
+#
+# Aliases to get binaries working under MobaXterm
+#
+alias busybox='/drives/c/Users/remarcil/Documents/MobaXterm/slash/bin/busybox.exe'
+alias diff='/drives/c/Users/remarcil/Documents/MobaXterm/slash/bin/diff'
+alias git='/drives/c/Users/remarcil/Documents/MobaXterm/slash/bin/git'
+alias joe='/drives/c/Users/remarcil/Documents/MobaXterm/slash/bin/joe'
+alias nano='/drives/c/Users/remarcil/Documents/MobaXterm/slash/bin/nano.exe'
+alias python='/drives/c/Users/remarcil/Documents/MobaXterm/slash/bin/python2.7.exe'
+alias subl='/drives/c/Program\ Files/Sublime\ Text\ 3/subl.exe'
+alias sublime='/drives/c/Program\ Files/Sublime\ Text\ 3/subl.exe'
+
+
+
+Plugins
+=======
+MobApt (or "apt-get") plugin to install MobaXterm plugins
+
+--https://mobaxterm.mobatek.net/plugins.html
+
 
 
 Links
@@ -16,3 +65,7 @@ MobaXterm
 Enhanced terminal for Windows with X11 server,
 tabbed SSH client, network tools and much more
 https://mobaxterm.mobatek.net/
+
+MobaXterm plugins
+MobApt package manager: type "MobApt" (or "apt-get") inside MobaXterm terminal.
+https://mobaxterm.mobatek.net/plugins.html
