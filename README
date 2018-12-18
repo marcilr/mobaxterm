@@ -1,4 +1,4 @@
-README.txt
+README
 Create Fri Novembe 23, 2018
 by Raymond E. Marcil <marcilr@gmail.com>
 
@@ -19,6 +19,13 @@ mobaxterm.txt
 plugins.txt
   Plugins for ModaXterm
   https://mobaxterm.mobatek.net/plugins.html
+
+python.txt
+  Python is aliased to MobaXterm's Python 2.7 in .bash_profile:
+
+  > alias | grep python
+  alias python='/drives/c/Users/remarcil/Documents/MobaXterm/slash/bin/python2.7.exe'
+  >
 
 syntax/
   Syntax for MobaXterm
