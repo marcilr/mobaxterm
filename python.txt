@@ -1,0 +1,14 @@
+python.txt
+Created Thu Dec 13 14:57:40 AST 2018
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
+
+
+
+Python is aliased to MobaXterm's Python 2.7 in .bash_profile:
+
+> alias | grep python
+alias python='/drives/c/Users/remarcil/Documents/MobaXterm/slash/bin/python2.7.exe'
+>
+
+
